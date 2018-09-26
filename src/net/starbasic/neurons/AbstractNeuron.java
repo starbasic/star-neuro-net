@@ -43,8 +43,8 @@ public abstract class AbstractNeuron {
             return sum;
 	}
     
-        public void setReletion(int i, AbstractNeuron inputNeuro){
-            input[i] = inputNeuro;
+        public void setRelation(int i, AbstractNeuron inputNeuron){
+            input[i] = inputNeuron;
         }
 	public abstract void weightUpdate(double result);
 }
