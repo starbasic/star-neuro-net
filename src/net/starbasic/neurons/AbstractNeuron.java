@@ -7,9 +7,9 @@ import java.util.Arrays;
  * @author Серж
  */
 public abstract class AbstractNeuron {
-	private double weight[];
-	private int size;
-        private AbstractNeuron input[];
+	protected double weight[];
+	protected int size;
+        protected AbstractNeuron input[];
 	
         public AbstractNeuron(int size){
             this.size = size;
